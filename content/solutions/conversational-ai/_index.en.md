@@ -29,6 +29,9 @@ blue_button:
   dark_text: Download White Paper
   link: "/img/upload/y-digital_whitepaper-en.pdf"
 numbered_features:
+- title: Call Assit
+  text: test
+  image: "/img/upload/sm_office2.jpg"
 - title: Customer Identification
   text: Customer identification is the process of verifying the identity of the person
     calling your contact centre. By checking the authorisation via Conversational
