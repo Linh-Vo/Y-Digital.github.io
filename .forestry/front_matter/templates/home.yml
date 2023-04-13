@@ -177,8 +177,7 @@ fields:
     maxSize: 64
   label: footer_photo
 - name: numbered_features
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
   - name: title
     type: text
@@ -190,17 +189,21 @@ fields:
     config:
       required: false
     label: text
+  - name: image_link
+    type: text
+    config:
+      required: false
+    label: image link
   - name: image
     type: file
     config:
       maxSize: 64
     label: image
-  - name: image_link
-    type: text
-    config:
-      required: false
-    label: image_link
-  label: numbered_features
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: features
 pages:
 - content/_index.en.md
 - content/_index.nl.md
