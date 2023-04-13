@@ -177,41 +177,8 @@ fields:
     maxSize: 64
   label: footer_photo
 - name: numbered_features
-  type: field_group_list
-  fields:
-  - name: '1'
-    type: field_group
-    config: {}
-    fields:
-    - name: title
-      type: text
-      config:
-        required: false
-      label: title
-    - name: text
-      type: textarea
-      default: ''
-      config:
-        required: false
-        wysiwyg: false
-        schema:
-          format: markdown
-      label: text
-    - name: image
-      type: file
-      config:
-        maxSize: 64
-      label: image
-    - name: image_link
-      type: text
-      config:
-        required: false
-      label: image_link
-    label: '1'
-  config:
-    min: 
-    max: 
-    labelField: 
+  type: field_group
+  config: {}
   label: numbered_features
 pages:
 - content/_index.en.md
