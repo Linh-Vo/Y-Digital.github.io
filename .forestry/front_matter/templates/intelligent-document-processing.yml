@@ -50,9 +50,13 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+  hidden: true
 - type: text
   name: page_heading_2
   label: page_heading_2
+  config:
+    required: false
+  hidden: true
 - type: field_group
   name: legal_contract_checker
   label: legal_contract_checker
@@ -66,6 +70,7 @@ fields:
   - type: text
     name: link
     label: link
+  hidden: true
 - type: field_group
   name: realtime_information_recap
   label: realtime_information_recap
@@ -79,6 +84,7 @@ fields:
   - type: text
     name: link
     label: link
+  hidden: true
 - type: field_group
   name: esg_scan
   label: esg_scan
@@ -92,6 +98,7 @@ fields:
   - type: text
     name: link
     label: link
+  hidden: true
 - type: field_group
   name: compliance_reviewer
   label: compliance_reviewer
@@ -105,6 +112,7 @@ fields:
   - type: text
     name: link
     label: link
+  hidden: true
 - type: field_group
   name: two_round_buttons
   label: two_round_buttons
@@ -121,6 +129,35 @@ fields:
   - type: text
     name: right_button_link
     label: right_button_link
+  hidden: true
+- name: numbered_features
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  - name: image_link
+    type: text
+    config:
+      required: false
+    label: image link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: features
 pages:
 - content/solutions/intelligent-document-processing/_index.en.md
 - content/solutions/intelligent-document-processing/_index.nl.md
