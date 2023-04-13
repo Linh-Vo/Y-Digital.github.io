@@ -112,6 +112,7 @@ fields:
   - type: file
     name: photo
     label: photo
+  hidden: true
 - name: media
   type: field_group
   config: {}
