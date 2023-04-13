@@ -23,8 +23,8 @@ fields:
   - name: image_link
     type: text
     config:
-      required: false
-    label: image link
+      required: true
+    label: image_link
   config:
     min: 
     max: 
