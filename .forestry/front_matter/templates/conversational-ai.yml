@@ -143,6 +143,11 @@ fields:
   - type: text
     name: right_button_link
     label: right_button_link
+- name: numbered_features
+  type: include
+  config: {}
+  template: numbered_features
+  label: numbered_features
 pages:
 - content/solutions/conversational-ai/_index.en.md
 - content/solutions/conversational-ai/_index.nl.md
