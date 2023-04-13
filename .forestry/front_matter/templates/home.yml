@@ -52,6 +52,7 @@ fields:
   - type: text
     name: right_circle
     label: right_circle
+  hidden: true
 - type: text
   name: page_title
   label: page_title
