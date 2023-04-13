@@ -1,4 +1,32 @@
 ---
 label: numbered_features
 hide_body: true
-fields: []
+fields:
+- name: numbered_features
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+  - name: text
+    type: text
+    config:
+      required: false
+    label: text
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+  - name: image_link
+    type: text
+    config:
+      required: false
+    label: image link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: numbered_features
