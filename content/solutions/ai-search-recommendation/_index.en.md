@@ -31,7 +31,7 @@ consent_info: >-
 consent_text: I agree that my data will be used for these purposes.
 blue_button:
   dark_text: Get in touch
-  link: /contact/
+  link: /img/upload/y-digital_whitepaper-en.pdf
 two_round_buttons:
   left_button: Stop reading
   right_button: Start connecting
